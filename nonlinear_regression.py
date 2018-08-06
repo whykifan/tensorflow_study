@@ -2,7 +2,7 @@
 import tensorflow as tf
 import numpy as  np
 import matplotlib.pyplot as plt
-x_data = np.linspace(-5,5,200)[:,np.newaxis]  #生成一个新的维度
+x_data = np.linspace(-1,1,200)[:,np.newaxis]  #生成一个新的维度
 noise = np.random.normal(0,0.5,x_data.shape)
 y_data = np.square(x_data) + noise
 
